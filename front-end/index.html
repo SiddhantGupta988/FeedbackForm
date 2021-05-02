@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <form action="http://127.0.0.1:8080/myaction" method="post">
+       
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email address" />
+
+            <label for="message">Message:</label>
+            <textarea id="message" placeholder="What's on your mind?"></textarea>
+
+            <input type="submit" value="Send message" />
+
+      
+    </form> -->
+    <form action ="/" method="post" >
+        <label for="name">Name</label>
+        <input type="text" id = "name" name ="name"><hr>
+        <label for="email">Email:</label>
+            <input type="email" id="email" name ="email" placeholder="Enter your email address" />
+<hr>
+            <label for="message">Message:</label>
+            <textarea id="message" name ="message"placeholder="What's on your mind?"></textarea>
+        <hr>
+        <br>
+        <input type="submit" value ="Submit">
+    </form>
+    <!-- <script>
+        var form = document.getElementById('form');
+        form.addEventListener('submit',function(event){
+            event.preventDefault();
+
+            var x = document.getElementById("name").value;
+            var y = document.getElementById("age").value;
+            var obj ={
+                name:x,
+                age:y
+            }
+            var json = JSON.stringify(obj);
+            console.log(json);
+        })
+      
+    </script> -->
+</body>
+</html>
